@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-flaskhow to run app.py
-=======
 flask
->>>>>>> 2ad3f05 (Add files via upload)
