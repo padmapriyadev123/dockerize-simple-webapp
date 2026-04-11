@@ -11,8 +11,8 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Trigger Render Deploy
+      - name: Deploy to Render
         run: |
           curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}"
